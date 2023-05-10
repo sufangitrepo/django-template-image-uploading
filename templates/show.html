@@ -18,8 +18,8 @@
     </header>
     <ul> {% for item in list %} 
             <li><div>
-                <img src='/media/{{item.image}}'/>
-                '/media/{{ item.image }}'
+                <img src='{{host}}/media/{{item.image}}'/>
+                '{{host}}/media/{{ item.image }}'
             </div>
             </li>
           {% endfor %}
